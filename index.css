@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    height:45px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.671);
+    color: rgb(228, 222, 222);
+    text-align: center;
+    padding-left: 270px;
+    padding-right: 270px;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar h4{
+    font-weight: lighter;
+    font-size: 12.5px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: rgb(170, 170, 170);
+}
+.just-around{
+    justify-content: space-around;
+}
+
+.navbar h3:hover{
+    color: white;
+}
+.nav4{
+    color: rgb(170, 170, 170);
+}
+.nav4:hover{
+    color: white;
+}
+#lens{
+    color: rgb(170, 170, 170);
+}
+#lens:hover{
+    color: white;
+}
+#bag{
+    color: rgb(170, 170, 170);
+}
+#bag:hover{
+    color: white;
+}
+
+.text-align{
+    text-align: center;
+    padding: 10px 200px 10px 200px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight:lighter;
+    background-color: rgb(233, 233, 233);
+}
+
+.shop1{
+    color: rgb(0, 136, 255);
+    font-size: 2.5vh;
+    font-weight: lighter;
+}
+.shop1:hover{
+    text-decoration: underline;
+}
+.shop12{
+    color: rgb(0, 136, 255);
+    font-size: 2vh;
+    font-weight: lighter;
+}
+.shop12:hover{
+    text-decoration: underline;
+}
+
+.image1{
+    text-align: center;
+    margin-top: 50px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.image1 h1{
+
+    font-size: 50px;
+    
+}
+
+.image1 span{
+
+    font-size: 23px;
+    font-weight:100;
+}
+
+.image1 h4{
+
+    font-size: 20px;
+    font-weight:100;
+    color: rgb(62, 131, 176);
+}
+
+.image1 pre{
+
+    font-size: 20px;
+}
+
+
+.image2{
+    height: 574px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image2 h1{
+    padding-top: 30px;
+    color: white;
+   
+    font-size: 50px;
+    
+}
+
+.image2 span{
+    color: white;
+    font-size: 25px;
+    font-weight:100;
+}
+
+.image2 h4{
+    font-size: 20px;
+    font-weight:100;
+    color: rgb(62, 131, 176);
+}
+
+.image2 pre{
+    font-size: 20px;
+}
+
+.image3{
+    height: 570px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.image3 h1{
+    padding-top: 35px;
+    font-size: 50px;
+    
+}
+
+.image3 span{
+    
+    font-size: 25px;
+    font-weight:100;
+}
+
+.image3 h4{
+    
+    font-size: 20px;
+    font-weight:100;
+    color: rgb(62, 131, 176);
+}
+
+.image3 img{
+    margin-left: 450px;
+    height: 500px;
+}
+
+.right{
+    text-align: center;
+    padding-top: 120px;
+    margin-right: 330px;
+
+}
+
+.right pre{
+    
+    font-size: 20px;
+}
+
+.Mimg{
+    padding-left: 45vh;
+    margin-top: 10vh;
+    height: 35px;
+
+    
+}
+.hr5{
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+.txt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+/* .fullmain{
+    padding: 1vh;
+} */
+.imgh5{
+    color: white;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+.logoh1{
+
+    font-size: 40px;
+    padding-top: 12vh;
+    
+}
+.logo1{
+    height: 35px;
+    width: 35px;
+}
+.Mimg6{
+    padding-left: 45vh;
+    margin-top: 10vh;
+    height: 50px;
+
+    
+}
+.hr6{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.img5{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2vh;
+    
+
+}
+
+.fullmain{
+    justify-content: center;
+}
+.img5left
+{
+    background-image: url('./imgiphone/promo_ipadpro.jpg');
+    height: 80vh;
+    background-size: cover;
+    width: 49vw;   
+    border: 2vh;
+    border-color: aliceblue;
+    text-align: center; 
+    align-items: center;
+}
+.img5right
+{
+    background-image: url('./imgiphone/REMOT.png');
+    height: 80vh;
+    width: 49vw;    
+    border: 2vh;
+    border-color: aliceblue;
+    background-size: cover;
+}
+
+.img6{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    /* justify-items: center; */
+    width:100%;
+    /* flex-wrap: wrap; */
+}
+.img6left
+{
+    background-image: url('./imgiphone/watch2.png');
+    height: 80vh;
+    background-size: cover;
+    width: 49vw;    
+    border: 2vh;
+    border-color: aliceblue;   
+}
+.img6right
+{
+    background-image: url('./imgiphone/watch1.png');
+    height: 80vh;   
+    width: 49vw;    
+    border: 2vh;
+    border-color: aliceblue;
+    background-size: cover;
+}
+
+.img7{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 2vh;
+    
+
+}
+.hr7{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    padding-top: 7vh;
+    font-size: 30px;
+    
+}
+.span7{
+    font-size: 20px;
+}
+.img7left
+{
+    background-image: url('./imgiphone/airpod.png');
+    height: 80vh;
+    background-size: cover;    
+    width: 49vw;    
+    border: 2vh;
+    border-color: aliceblue;
+}
+.img7right
+{
+    height: 80vh;   
+    width: 49vw;    
+    border: 2vh;
+    border-color: aliceblue;
+    background-size: cover;
+}
+.logopromo{
+    height: 30vh;
+    width: 55vh;
+    margin-top: 20vh;
+    margin-left:30vh ;
+}
+.link{
+    
+    margin-left: 33vh;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: blue;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.foot{
+    padding-top: 2vh;
+}
+.mainfooter{
+    background-color: rgb(235, 235, 235);
+    margin: 0.5vh 38vh;
+    color: rgb(175, 173, 173);
+
+}
+.mainfooter1{
+    background-color: rgb(235, 235, 235);
+}
+.footp{
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgb(60, 60, 60);
+
+}
+.col5
+{
+    
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+}
+.col1{
+    height: 50vh;
+    width: 20vw;
+    /* background: rgb(255, 255, 255); */
+}
+.col2{
+    height: 50vh;
+    width: 20vw;
+    /* background: rgb(255, 255, 255); */
+}
+.col3{
+    height: 50vh;
+    width: 20vw;
+    /* background: rgb(255, 255, 255); */
+}
+.col4{
+    height: 50vh;
+    width: 20vw;
+    /* background: rgb(255, 255, 255); */
+}
+.col6{
+    height: 50vh;
+    width: 20vw;
+    /* background: rgb(255, 255, 255); */
+}
+h3{
+    font-weight: normal;
+    font-size: 13px;
+    padding: 5px;
+    color: rgb(40, 40, 40);
+
+}
+h4{
+    font-weight: lighter;
+    font-size: 11px;
+    padding: 5px;
+    color: rgb(76, 76, 76);
+}
+.findfoot{
+    color: rgb(0, 0, 255);
+}
+.footer1
+{
+    display: flex;
+}
+.fp{
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+}
+.fdev{
+    padding-left: 6vh;
+    color: rgb(36, 36, 36);
+    font-size: 12px;
+}
+.devi{
+    padding-left: 45vh;
+    color: rgb(36, 36, 36);
+    font-size: 12px;
+}
+.lfoot{
+    color:rgb(36, 36, 36) ;
+}
+
